@@ -4,15 +4,15 @@ Docker image with MiniDLNA installed that shares `/media` container directory ov
 
 ### Using the image
 
-1. Install docker
+* Install docker
 
-2. Run the following command:
+* Run the following command:
 
 ```
 docker run -d --name minidlna --net host -v </your/media/location>:/media viranch/minidlna
 ```
 
-3. Stream your media on a UPnP/DLNA compliant device.
+* Stream your media on a UPnP/DLNA compliant device.
 
 #### Note for MacOS
 
